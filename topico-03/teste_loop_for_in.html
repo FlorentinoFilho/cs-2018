@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Teste de loop - for</h2>
+        <p id="demo"></p>
+        <script>
+//        var carros=["Sentra","Fox","kombi"];
+        var pessoa={nome:"florentino",sobrenome:"santos",idade:54};
+        var texto="";
+        var x;
+        for (x in pessoa) {
+            texto+=pessoa[x]+"<br>";
+        }
+        document.getElementById("demo").innerHTML=texto;
+        </script>
+
+    </body>
+</html>
